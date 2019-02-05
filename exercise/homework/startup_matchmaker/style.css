@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*header*/
+.header {
+  background-color: black;
+  display: inline-block;
+  width: 100%;
+}
+.h1_header {
+  color: yellow;
+  padding: 0 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0 15px;
+}
+.nav ul {
+  color: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 5px 10px;
+}
+.nav_a {
+  text-decoration: none;
+  color: white;
+}
+.big_white {
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/*Quote*/
+.quote {
+  background-color: lightgray;
+  border-top: 2px yellow solid;
+  text-align: center;
+  font-style: italic;
+  padding: 5px;
+}
+.crossed_word {
+  color: gray;
+  text-decoration: line-through;
+}
+.underline {
+  text-decoration: underline yellow;
+}
+/*ads styling*/
+.ads {
+  display: flex;
+  align-items:flex-end;
+  justify-content: flex-end;
+  background-image: url("images/coworking.jpg");
+  background-repeat: no-repeat;
+  width: 1024px;
+  height: 664px;
+  padding: 15px;
+  margin: 0 100px;
+}
+
+.ads_div {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 200px;
+  height: 250px;
+  display: block;
+  padding: 1px 15px;
+  margin: 50px 50px;
+}
+.ads_signup_button {
+  background-color: yellow;
+  padding: 15px;
+  text-align: center;
+  font-weight: bolder;
+  width:inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+}
+.ads_a {
+  text-decoration: none;
+  color: yellow;
+  font-weight: bolder;
+}
+
+/*the bottom options*/
+.bottom_options {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom_options_div {
+  padding: 20px;
+  margin: 10px 20px;
+}
+.buttons {
+  background-color: lightgray;
+  text-align: center;
+  font-weight: bolder;
+  width: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.options_a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.lines_between{
+  border-right: 1px solid lightgray;
+}
+.footer {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 5px 15px;
+}
